@@ -3,8 +3,6 @@ const buttons = document.querySelectorAll(".option"); // NodeList -> Array: [btn
 // console.log(buttons);
 const results = document.querySelector(".results");
 
-const votes = {};
-
 // Escopo
 
 // {
@@ -52,6 +50,7 @@ async function displayResults() {
   // console.log(response);
   const allVotes = await response.json();
   console.log(allVotes);
+  const votes = {};
 
   for (let i = 0; i < allVotes.length; i++) {
     const currentVote = allVotes[i];
