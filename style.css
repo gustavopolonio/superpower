@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 20px;
+}
+
+.options {
+  max-width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px auto;
+  gap: 14px;
+}
+
+.option {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid rgb(54, 54, 246);
+  background-color: rgb(36, 70, 195);
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.option:hover {
+  background-color: rgb(208, 229, 248);
+  color: rgb(36, 70, 195);
+}
+
+
+.results {
+  margin-top: 56px;
+  font-size: 20px;
+}
